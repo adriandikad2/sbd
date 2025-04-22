@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sbd-color: #e53e3e; /* Red */
+  --dmj-color: #3182ce; /* Blue */
+  --os-color: #805ad5; /* Purple */
+  --background-start: #1e3a8a; /* Dark blue */
+  --background-end: #c2410c; /* Dark orange */
+  --text: #ffffff;
+  --text-secondary: #e2e8f0;
+  --card-bg: rgba(0, 0, 0, 0.7);
+  --border: #333333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, var(--background-start), var(--background-end));
+  background-attachment: fixed;
+  color: var(--text);
+  min-height: 100vh;
+}
+
+body.inverted {
+  background: linear-gradient(135deg, #e2e8f0, #f8fafc);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-gradient-main {
+  background: linear-gradient(135deg, var(--background-start), var(--background-end));
+  background-attachment: fixed;
+}
+
+.inverted {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.inverted img {
+  filter: invert(1) hue-rotate(180deg); /* Double inversion to keep images normal */
+}
+
+.bg-card {
+  background-color: var(--card-bg);
+}
+
+.bg-sbd {
+  background-color: var(--sbd-color);
+}
+
+.bg-dmj {
+  background-color: var(--dmj-color);
+}
+
+.bg-os {
+  background-color: var(--os-color);
+}
+
+.inverted-bg-sbd {
+  background-color: #1ac1c1; /* Inverted red */
+}
+
+.inverted-bg-dmj {
+  background-color: #ce7d31; /* Inverted blue */
+}
+
+.inverted-bg-os {
+  background-color: #7fa52a; /* Inverted purple */
+}
+
+.text-sbd {
+  color: var(--sbd-color);
+}
+
+.text-dmj {
+  color: var(--dmj-color);
+}
+
+.text-os {
+  color: var(--os-color);
+}
+
+.border-sbd {
+  border-color: var(--sbd-color);
+}
+
+.border-dmj {
+  border-color: var(--dmj-color);
+}
+
+.border-os {
+  border-color: var(--os-color);
+}
+
+.hover-sbd:hover {
+  background-color: rgba(229, 62, 62, 0.2);
+}
+
+.hover-dmj:hover {
+  background-color: rgba(49, 130, 206, 0.2);
+}
+
+.hover-os:hover {
+  background-color: rgba(128, 90, 213, 0.2);
+}
