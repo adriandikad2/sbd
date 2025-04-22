@@ -51,7 +51,7 @@ export default function App() {
               <div className="flex flex-col md:flex-row gap-8">
                 <div className="md:w-1/4 flex justify-center">
                   <div className={`${isInverted ? "bg-black bg-opacity-20" : "bg-sbd bg-opacity-20"} p-4 rounded-full`}>
-                    <img src="/src/assets/SBDLogo.svg" alt="SBD Logo" className="h-32 w-32" />
+                    <img src="/assets/SBDLogo.svg" alt="SBD Logo" className="h-32 w-32" />
                   </div>
                 </div>
                 <div className="md:w-3/4">
@@ -71,7 +71,7 @@ export default function App() {
               <div className="flex flex-col md:flex-row gap-8">
                 <div className="md:w-1/4 flex justify-center">
                   <div className={`${isInverted ? "bg-black bg-opacity-20" : "bg-dmj bg-opacity-20"} p-4 rounded-full`}>
-                    <img src="/src/assets/DMJLogo.svg" alt="DMJ Logo" className="h-32 w-32" />
+                    <img src="/assets/DMJLogo.svg" alt="DMJ Logo" className="h-32 w-32" />
                   </div>
                 </div>
                 <div className="md:w-3/4">
@@ -91,7 +91,7 @@ export default function App() {
               <div className="flex flex-col md:flex-row gap-8">
                 <div className="md:w-1/4 flex justify-center">
                   <div className={`${isInverted ? "bg-black bg-opacity-20" : "bg-os bg-opacity-20"} p-4 rounded-full`}>
-                    <img src="/src/assets/OSLogo.svg" alt="OS Logo" className="h-32 w-32" />
+                    <img src="/assets/OSLogo.svg" alt="OS Logo" className="h-32 w-32" />
                   </div>
                 </div>
                 <div className="md:w-3/4">
